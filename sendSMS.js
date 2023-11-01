@@ -9,9 +9,9 @@ const client = require('twilio')(accountSid, authToken);
 const sendMsg = async () => {
 await client.messages
             .create({
-                body: 'Your appointment is coming up on July 21 at 3PM',
+                body: 'Maar khayega sale net chala le sahi se',
                 from: 'whatsapp:+14155238886',
-                to: 'whatsapp:+919621412161'
+                to: 'whatsapp:+917217560848'
             })
             .then(message => console.log(message))
             .catch(error => console.log(error));
